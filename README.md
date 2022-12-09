@@ -31,8 +31,8 @@ https://mytwittera2.herokuapp.com/
 - Professor: <a href="https://johnguerra.co/"> John Alexis Guerra Gómez </a>
 - Release: <a href="https://mytwittera2.herokuapp.com/"> Here to Start </a>
 - Demo: <a href="https://youtu.be/mB-5_2-avfo"> Video </a>
-- Design Mock-up: <a href="Design Mock-up.pdf"> Mock-up </a>
-- Userbility Study Survey: <a href="UserTestReport.pdf"> User Test Report </a>
+- Design Document: <a href="Design Mock-up.pdf"> Mock-up </a>
+- Userbility Study Survey: <a href="https://docs.google.com/document/d/1IYlW7ACVxuyJCJgCgrNH-Vus2LdpOVPDkaZ_5MHtCmY/edit#heading=h.e1aq9w3u6mh"> User Test Report </a>
 
 
 ## Prerequirements
