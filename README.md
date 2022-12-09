@@ -10,11 +10,11 @@ React + Nodejs + Express + MongoDB + HTML5 + Heroku
 Weihong Yang | Yuan Wang
 
 ## Deploy on Heroku
-https://mytwittera2.herokuapp.com/
+https://wetalk123.herokuapp.com/
 
 
 ## Description
-- Web Development Project 3 : WeTalk
+- Web Development Project 4 : WeTalk
 - Project Objective : Apply the concepts learned in class by building a basic fullstack application with React, Nodejs, Express, javascript, MongoDB and HTML5. Deploy on Heroku.
 
 ## Project Intro
@@ -42,7 +42,7 @@ https://mytwittera2.herokuapp.com/
 
 ## Instructions for Clone or Download
 ```terminal
-$ git clone git@github.com:wyang10/Project3.git
+$ git clone git@github.com:wyang10/WeTalk.git
 
 To run:
 $ yarn install	
