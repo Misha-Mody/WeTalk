@@ -31,7 +31,7 @@ https://wetalk123.herokuapp.com/
 - Professor: <a href="https://johnguerra.co/"> John Alexis Guerra Gómez </a>
 - Release: <a href="https://mytwittera2.herokuapp.com/"> Here to Start </a>
 - Demo: <a href="https://youtu.be/mB-5_2-avfo"> Video </a>
-- Design Document: [Mock-up](Ddesign mock-up.pdf) 
+- Design Document: [Mock-up](design mock-up.pdf) 
 - Userbility Study Survey: <a href="https://docs.google.com/document/d/1IYlW7ACVxuyJCJgCgrNH-Vus2LdpOVPDkaZ_5MHtCmY/edit#heading=h.e1aq9w3u6mh"> User Test Report </a>
 
 
