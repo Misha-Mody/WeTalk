@@ -42,14 +42,11 @@ https://mytwittera2.herokuapp.com/
 ```terminal
 $ git clone git@github.com:wyang10/Project3.git
 
-run in client:
-$ npm install	(change client/config.js --> export const baser = “”)
-$ npm build  	(copy “ build/... "   --> server/public”)
-
-run in server:  
-$ npm install
-$ npm start
-Using your browser go to localhost: http://locahost:80/
+To run:
+$ yarn install	
+$ yarn build 
+$ yarn start
+Using your browser go to localhost
 ```
 ## Screenshots Preview:
 Login
