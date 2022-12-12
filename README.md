@@ -10,7 +10,8 @@ React + Nodejs + Express + MongoDB + HTML5 + Heroku
 Weihong Yang | Yuan Wang
 
 ## Deploy on Heroku
-https://wetalk123.herokuapp.com/
+https://wetalk456.herokuapp.com/
+https://wetalk4.onrender.com/register
 
 
 ## Description
@@ -29,7 +30,7 @@ https://wetalk123.herokuapp.com/
 ## Class Info
 - Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 - Professor: <a href="https://johnguerra.co/"> John Alexis Guerra Gómez </a>
-- Release: <a href="https://wetalk123.herokuapp.com/"> Here to Start </a>
+- Release: <a href="https://wetalk456.herokuapp.com/"> Here to Start </a>
 - Demo: <a href="https://youtu.be/mB-5_2-avfo"> Video </a>
 - Design Document: <a href="https://github.com/wyang10/WeTalk/blob/addc41cf0f395efa1538ca0f941d9046f09fb4b6/design%20mock-up.pdf"> Mock-up </a>
 - Userbility Study Survey: <a href="https://docs.google.com/document/d/1IYlW7ACVxuyJCJgCgrNH-Vus2LdpOVPDkaZ_5MHtCmY/edit#heading=h.e1aq9w3u6mh"> User Test Report </a>
