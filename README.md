@@ -66,5 +66,3 @@ Following/Follower List
 
 ### License
 [MIT](LICENSE)
-test
-
