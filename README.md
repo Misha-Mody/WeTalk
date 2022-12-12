@@ -59,17 +59,14 @@ Login
 User Post
 ![](Screenshots/User_Post.png)
 
-Comment
-![](Screenshots/Comment.png)
-
 Passed Axe Test
-![](axe.png)
+![](Screenshots/axe.png)
 
 Reply/Delete
-![](replay/Delete.png)
+![](Screenshots/replay/Delete.png)
 
 User List
-![](UserList.png)
+![](Screenshots/UserList.png)
 
 
 
