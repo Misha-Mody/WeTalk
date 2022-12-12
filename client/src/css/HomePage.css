@@ -15,31 +15,69 @@
 }
 
 .twitter-postbtn {
-    background-color: pink;
-    border-radius: 20px;
-    width: 100px;
+    background-color: #000080;
+    border-radius: 10px;
     height: 100px;
+    width: 100px;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer
 }
 
 .follower-btn {
-    background-color: lightskyblue;
-    border-radius: 20px;
-    width: 180px;
-    height: 50px;
+    background-color: #000080;
+    border-radius: 10px;
+    width: 190px;
+    height: 45px;
     margin: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: #ffffff;
 }
-
+.follow-btn-div{
+    float: left;
+    width: 600px;
+}
 .follow-btn-small1 {
-    background-color: lightsalmon;
+    background-color: #4b5b6b;
     border-radius: 10px;
     width: 120px;
-    height: 30px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
 }
 
 .follow-btn-small2 {
-    background-color: lightseagreen;
+    background-color: #000080;
     border-radius: 10px;
     width: 120px;
-    height: 30px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
 }
+
+.home-h1 {
+    margin: 20px 10px;
+    float: left;
+}
+
+.follow-btn-span{
+    margin-top: 25px;
+    float: left;
+    margin-left: 15px;
+}
+
+.div-display-none{
+    width: 600px;
+    color: #f0f8ff;
+    display: none;
+}
+
+
 

@@ -14,10 +14,10 @@ export function TwitterItem(props) {
   let {
     _id, username, nickname, date, content, replycount, likes, dislikes
   } = twitter_item
-  
+
   let [_likes, setLikes] = useState(likes)
   let [_dislikes, setDislikes] = useState(dislikes)
-  
+
   useEffect(()=>{
 	setLikes(likes);
   },[likes])
@@ -25,7 +25,7 @@ export function TwitterItem(props) {
   useEffect(()=>{
 	setDislikes(dislikes);
   },[dislikes])
-  
+
   useEffect(()=>{
 	setLikes(_likes);
   },[_likes])
@@ -36,7 +36,7 @@ export function TwitterItem(props) {
 
   return (<div className={"twitter-item"}>
     <div className={"icon"}>
-      <img src={user_icon} alt={""} onClick={() => {
+      <img title={"To Replay"} src={user_icon} alt={""} onClick={() => {
         window.location = `/user_detail?id=${encodeURI(username)}`
       }}/>
     </div>
@@ -49,7 +49,7 @@ export function TwitterItem(props) {
       <div className={"content"}>
         {content}
       </div>
-      <div>
+      <div className={"reply-float"}>
         <span className={"reply-icon"}>
           <img src={message_icon} alt="" onClick={() => {
             window.location = `/detail?id=${_id}`

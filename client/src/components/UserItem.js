@@ -7,7 +7,7 @@ export function UserItem(props) {
   const {username, nickname} = user_item
   return (<div className={"user-item"}>
     <div className={"icon"}>
-      <img src={user_icon} alt={""} onClick={() => {
+      <img title={"To Replay"} src={user_icon} alt={""} onClick={() => {
         window.location = `/user_detail?id=${encodeURI(user_item.username)}`
       }}/>
     </div>

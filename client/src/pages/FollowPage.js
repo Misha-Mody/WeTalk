@@ -38,11 +38,12 @@ export function FollowPage(props) {
   }, [])
 
   return (<div>
-    <div>
-      <button className={"follower-btn1"} onClick={() => showFollowings()}>Followings</button>
-      <button className={"follower-btn2"} onClick={() => showFollowers()}>Followers</button>
+    <h1></h1>
+    <div className={"follow-div"}>
+      <button title={"Check Following List"} className={"follower-btn1"} onClick={() => showFollowings()}>Followings</button>
+      <button title={"Check Followers List"} className={"follower-btn2"} onClick={() => showFollowers()}>Followers</button>
     </div>
-    <div>
+    <div className={"follow-div-no-user"}>
       {userList.map((x, idx) => <UserItem key={idx} user_item={x}></UserItem>)}
       {userList.length === 0 && isFollowing ? "No following" : ""}
       {userList.length === 0 && !isFollowing ? "No followers" : ""}

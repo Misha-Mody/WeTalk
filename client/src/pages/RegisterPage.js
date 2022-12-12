@@ -14,26 +14,26 @@ export function RegisterPage(props) {
     setLoginUser("");
   }, [])
 
-  return (<div>
+  return (<div className={"div-login"}>
       <div>
-        <h2>Register</h2>
+        <h1>Register</h1>
       </div>
 
       <div className={"field"}>
         <span>Username: </span>
-        <input type={"text"} value={username} onChange={e => setUsername(e.target.value)}/>
+        <input placeholder={"username"} type={"text"} value={username} onChange={e => setUsername(e.target.value)}/>
       </div>
       <div className={"field"}>
         <span>Nickname: </span>
-        <input type={"text"} value={nickname} onChange={e => setNickname(e.target.value)}/>
+        <input placeholder={"nickname"} type={"text"} value={nickname} onChange={e => setNickname(e.target.value)}/>
       </div>
       <div className={"field"}>
         <span>Password: </span>
-        <input type={"password"} value={password} onChange={e => setPassword(e.target.value)}/>
+        <input placeholder={"password"} type={"password"} value={password} onChange={e => setPassword(e.target.value)}/>
       </div>
       <div className={"field"}>
         <span>Confirm: </span>
-        <input type={"password"} value={confirm} onChange={e => setConfirm(e.target.value)}/>
+        <input placeholder={"confirm password"} type={"password"} value={confirm} onChange={e => setConfirm(e.target.value)}/>
       </div>
       <div>
         <button className={"btn-ok"} onClick={async () => {

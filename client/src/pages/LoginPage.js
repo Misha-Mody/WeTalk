@@ -14,17 +14,17 @@ export function LoginPage(props) {
     setLoginUser("")
   }, [])
 
-  return (<div>
+  return (<div className={"div-login"}>
     <div>
-      <h2>Login</h2>
+      <h1>Login</h1>
     </div>
     <div className={"field"}>
       <span>Username: </span>
-      <input type={"text"} value={username} onChange={e => setUsername(e.target.value)}/>
+      <input placeholder={"username"} type={"text"} value={username} onChange={e => setUsername(e.target.value)}/>
     </div>
     <div className={"field"}>
       <span>Password: </span>
-      <input type={"password"} value={password} onChange={e => setPassword(e.target.value)}/>
+      <input placeholder={"password"} type={"password"} value={password} onChange={e => setPassword(e.target.value)}/>
     </div>
     <div>
       <button className={"btn-ok"} onClick={async () => {
@@ -39,10 +39,10 @@ export function LoginPage(props) {
         }
       }}>Login
       </button>
-      <button className={"btn-cancel"} onClick={() => {
+      <a className={"a-register"} onClick={() => {
         window.location = "/register"
       }}>Register
-      </button>
+      </a>
     </div>
   </div>)
 }

@@ -29,9 +29,10 @@ export function TwitterDetailPage(props) {
 
   return (
     <div>
+      <h1></h1>
       <TwitterItem twitter_item={twitter}/>
       <div className={"reply-box"}>
-        <textarea className={"twitter-area"}
+        <textarea placeholder={"content"} className={"twitter-area"}
                   onChange={(e) => setContent(e.target.value)} value={content}></textarea>
         <button className={"twitter-postbtn"} onClick={
           async () => {

@@ -32,9 +32,9 @@ export function HomePage(props) {
 
 
   let toolbox = (<div className={"reply-box"} style={{marginBottom: "10px"}}>
-        <textarea className={"twitter-area"}
+        <textarea placeholder={"content"} className={"twitter-area"}
                   onChange={(e) => setContent(e.target.value)} value={content}></textarea>
-      <button className={"twitter-postbtn"} onClick={async () => {
+      <button title={"Broadcast New Post"} className={"twitter-postbtn"} onClick={async () => {
         if (content.length < 5) {
           alert("The minimum length of twitter is 5")
           return
@@ -50,24 +50,23 @@ export function HomePage(props) {
   return (
     <div>
       <div>
-        <h2 style={{
-          margin: "20px 10px",
-          display: "inline-block",
-        }}>{getLoginUser() === user_id ? "My Home Page" : `@${user_id} 's Home Page`}</h2>
-        <button className={isFollowed ? "follow-btn-small1" : "follow-btn-small2"} onClick={async () => {
-          if (!isFollowed) {
-            await post(`${baseurl}/follow`, {from: getLoginUser(), to: user_id})
-          } else {
-            await post(`${baseurl}/unfollow`, {from: getLoginUser(), to: user_id})
-          }
-          refresh()
-        }}>{!isFollowed ? "Follow" : "UnFollow"}</button>
+        <h1 className={"home-h1"} >{getLoginUser() === user_id ? "My Home Page" : `@${user_id} 's Home Page`}</h1>
+        <span className={"follow-btn-span"}>
+          <button title={!isFollowed ? "Follow This User" : "Unfollow This User"} className={isFollowed ? "follow-btn-small1" : "follow-btn-small2"} onClick={async () => {
+            if (!isFollowed) {
+              await post(`${baseurl}/follow`, {from: getLoginUser(), to: user_id})
+            } else {
+              await post(`${baseurl}/unfollow`, {from: getLoginUser(), to: user_id})
+            }
+            refresh()
+          }}>{!isFollowed ? "Follow" : "UnFollow"}</button>
+        </span>
       </div>
-      {getLoginUser() === user_id ? toolbox : <div></div>}
-      <button className={"follower-btn"} onClick={() => {
+      {getLoginUser() === user_id ? toolbox : <div className={"div-display-none"}></div>}
+      <div className={"follow-btn-div"}><button title={"Check Following/Followers Lists"} className={"follower-btn"} onClick={() => {
         window.location = `/following?id=${user_id}`
       }}>Following/Followers
-      </button>
+      </button></div>
       {twitterList.map((x, idx) => <TwitterItem key={x._id} twitter_item={x}></TwitterItem>)}
     </div>
   )
