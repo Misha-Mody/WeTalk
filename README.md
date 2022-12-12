@@ -53,17 +53,18 @@ $ yarn start
 Using your browser go to localhost
 ```
 ## Screenshots Preview:
+
+Passed Axe Test
+![](Screenshots/axe.png)
+
 Login
 ![](Screenshots/Login.png)
 
 User Post
 ![](Screenshots/User_Post.png)
 
-Passed Axe Test
-![](Screenshots/axe.png)
-
 Reply/Delete
-![](Screenshots/replay/Delete.png)
+![](Screenshots/replay:Delete.png)
 
 User List
 ![](Screenshots/UserList.png)
