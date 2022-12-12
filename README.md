@@ -9,8 +9,10 @@ React + Nodejs + Express + MongoDB + HTML5 + Heroku
 ## Authors
 Weihong Yang | Yuan Wang
 
-## Deploy on Heroku
-- https://wetalk4.onrender.com
+## Deploy
+- Project 4 version:  https://wetalk4.onrender.com
+
+- Project 3 version:  https://wetalk123.herokuapp.com/home
 
 
 ## Description
