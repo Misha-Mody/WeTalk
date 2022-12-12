@@ -30,7 +30,7 @@ Weihong Yang | Yuan Wang
 - Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 - Professor: <a href="https://johnguerra.co/"> John Alexis Guerra Gómez </a>
 - Release: <a href="https://wetalk456.herokuapp.com](https://wetalk4.onrender.com)](https://wetalk4.onrender.com)"> Here to Start </a>
-- Demo: <a href="https://youtu.be/mB-5_2-avfo"> Video </a>
+- Demo: <a href="https://youtu.be/_hSGGN60ydg"> Video </a>
 - Design Document: <a href="https://github.com/wyang10/WeTalk/blob/addc41cf0f395efa1538ca0f941d9046f09fb4b6/design%20mock-up.pdf"> Mock-up </a>
 - PPT: <a href="https://docs.google.com/presentation/d/16s3ySIKo9l6jX9kk3FxJOdgwygSkN_ctkQKQAfMiFxs/edit#slide=id.g1b23c2fd952_0_0"> PPT </a>
 - Userbility Study Survey: <a href="https://docs.google.com/document/d/1IYlW7ACVxuyJCJgCgrNH-Vus2LdpOVPDkaZ_5MHtCmY/edit#heading=h.e1aq9w3u6mh"> User Test Report </a>
