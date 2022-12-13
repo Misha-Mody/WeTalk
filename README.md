@@ -3,7 +3,7 @@
 WeTalk
 </h1>
 <p align="center">
-React + Nodejs + Express + MongoDB + HTML5 + Heroku
+React + Nodejs + Express + MongoDB + HTML5 + Heroku/render
 </p>
 
 ## Authors
@@ -11,16 +11,28 @@ Weihong Yang | Yuan Wang
 
 ## Deploy
 - Project 4 version:  https://wetalk4.onrender.com
+- Project 3 version:  https://wetalk123.herokuapp.com
 
-- Project 3 version:  https://wetalk123.herokuapp.com/home
-
+## Defference: version 3 VS version 4.
+* Passed “Axe” user accessibility Test
+* Changed & align color palette with our web purpose       
+    * Multiple color →  Serves for functional design
+    * Align functional buttons with Dark blue and Dark grey.
+    * Everything has been properly aligned and spaced.
+    * Added a colored background. Plain→ off blue
+    * Changed our fonts to serif typefaces. 
+    * Assigned more spaces in Navibar design.
+* To distinguish between “Login” and “Register”, retained the “Login” button, set “Register” button to clickable text pattern.
+* Added trace cursor on the certain spot, it will be triggered automatically once our mouse cursor over the spot.
+* Changed the profile icon to flat design for user friendly. 
 
 ## Description
 - Web Development Project 4 : WeTalk
-- Project Objective : Apply the concepts learned in class by building a basic fullstack application with React, Nodejs, Express, javascript, MongoDB and HTML5. Deploy on Heroku.
+- Project Objective : Apply the concepts learned in class by building a basic fullstack application with React, Nodejs, Express, javascript, MongoDB and HTML5. Deploy on Heroku/render.
 
 ## Project Intro
 - Create a social networking application where users broadcast and interact with short posts, user can follow others account and check followed list.
+
 
 ## Functionalities
 - where user Register, Login and Logout. @Yuan Wang 
@@ -31,7 +43,7 @@ Weihong Yang | Yuan Wang
 ## Class Info
 - Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
 - Professor: <a href="https://johnguerra.co/"> John Alexis Guerra Gómez </a>
-- Release: <a href="https://wetalk456.herokuapp.com](https://wetalk4.onrender.com)](https://wetalk4.onrender.com)"> Here to Start </a>
+- Release: <a href="https://wetalk4.onrender.com](https://wetalk4.onrender.com)](https://wetalk4.onrender.com)"> Here to Start </a>
 - Demo: <a href="https://youtu.be/_hSGGN60ydg"> Video </a>
 - Design Document: <a href="https://github.com/wyang10/WeTalk/blob/addc41cf0f395efa1538ca0f941d9046f09fb4b6/design%20mock-up.pdf"> Mock-up </a>
 - PPT: <a href="https://docs.google.com/presentation/d/16s3ySIKo9l6jX9kk3FxJOdgwygSkN_ctkQKQAfMiFxs/edit#slide=id.g1b23c2fd952_0_0"> PPT </a>
