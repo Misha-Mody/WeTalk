@@ -6,7 +6,7 @@ WeTalk
 React + Nodejs + Express + MongoDB + HTML5 + Heroku/render
 </p>
 
-Really good work. I see that a lot of efforts were put. I was not able to login/register on the deployed version of the app. Had some problems in installing and running the app as well with git clone. 
+Really good work. I see that a lot of efforts were put. The accesibility features added were great as well. I liked that the tooltip was added in every button and the colors and fonts were changed as well to get better contrast. I was not able to login/register on the deployed version of the app. Had some problems in installing and running the app as well with git clone. 
 <img width="658" alt="Screenshot 2022-12-15 at 1 43 16 PM" src="https://user-images.githubusercontent.com/44525752/207974495-fe3082f2-13ba-4aa9-91b6-acf366e8e4a6.png">
 <img width="658" alt="Screenshot 2022-12-15 at 2 01 51 PM" src="https://user-images.githubusercontent.com/44525752/207976413-49200ec4-d025-4a3a-a7c9-e33de3b24426.png">
 
