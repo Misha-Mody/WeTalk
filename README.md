@@ -7,6 +7,8 @@ React + Nodejs + Express + MongoDB + HTML5 + Heroku/render
 </p>
 
 Really good work. I see that a lot of efforts were put. I was initially not able to login/register on the deployed version of the app.
+<img width="658" alt="Screenshot 2022-12-15 at 1 43 16 PM" src="https://user-images.githubusercontent.com/44525752/207974495-fe3082f2-13ba-4aa9-91b6-acf366e8e4a6.png">
+
 
 ## Authors
 Weihong Yang | Yuan Wang
