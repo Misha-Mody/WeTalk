@@ -6,6 +6,8 @@ WeTalk
 React + Nodejs + Express + MongoDB + HTML5 + Heroku/render
 </p>
 
+Really good work. I see that a lot of efforts were put. I was initially not able to login/register on the deployed version of the app.
+
 ## Authors
 Weihong Yang | Yuan Wang
 
